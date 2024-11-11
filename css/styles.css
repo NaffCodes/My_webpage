@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 200px;
+}
+
+.navbar a {
+    font-size: 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar.segunda-fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.trabaja {
+  background-color: #FFA500; /* Naranja */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px   
+ 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+
+}
+
+.navbar.segunda-fila a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.search-icon {
+    width: 30px;  /* Ajusta el tamaño de la lupa */
+    height: 30px;
+}
+
+.programa {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.programa h1 {
+  font-size: 2em;
+  color: #00233b;
+  margin-bottom: 20px;
+}
+
+.contenido {
+  display: flex;
+  align-items: flex-start; /* Alinea el texto y la imagen en la misma fila */
+  gap: 20px;               /* Espacio entre el texto y la imagen */
+}
+
+.textop {
+  display: flex;
+  flex-direction: column;  /* Apila el párrafo y los botones verticalmente */
+}
+
+.textop p {
+  font-size: 1.1em;
+  color: #00233b;
+  margin-top: 0;
+}
+
+.botones-container {
+  display: flex;
+  flex-direction: column;  /* Apila los botones verticalmente */
+  gap: 10px;               /* Espacio entre los botones */
+  margin-top: 20px;
+}
+
+.image-container {
+  flex-shrink: 0;          /* Evita que la imagen se reduzca */
+}
+
+.image-container img {
+  width: 500px;
+  height: auto;
+}
+
+.button-inscribete, .button-tarifas {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+
+
+.contacto {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contacto h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #00233b;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto input, .contacto button {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.contacto button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.titulaciones {
+    text-align: center;
+    font-size: 16px; /* Tamaño de fuente, opcional */
+    margin-top: 20px;
+    color: #00233b;
+}
+
+.titulaciones h3 {
+    font-size: 18px;
+    color: #00233b;
+    margin: 20px;
+}
+
+
+.titulaciones-container {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre las cajas */
+    gap: 20px; /* Espacio entre las cajas */
+    margin: 20px;
+    padding: 0 20px; 
+}
+
+.titulacion-card {
+    flex: 1; /* Permite que cada caja ocupe el mismo ancho */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px ;
+}
+
+.titulacion-card p {
+
+    padding: 20px;
+}
+
+.campo-laboral {
+  display: flex;
+  align-items: flex-start;      
+  justify-content: space-between;
+  padding: 0 60px;
+  margin: 20px 0;
+  color: #00233b;
+}
+
+.camptext {
+  display: flex;
+  flex-direction: column;       
+  width: 60%;                   
+}
+
+.campo-laboral h2 {
+    color: #00233b;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.campo-laboral ul {
+  padding: 0;
+  margin: 0;
+}
+
+.campo-laboral li {
+  margin-bottom: 10px;
+}
+
+.image-container1 {
+  width: 45%;                   
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-container1 img {
+  width: 100%;
+  height: auto;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-links a {
+    color: #ff7f50;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.matriculas {
+    text-align: center;
+    font-size: 16px; 
+    margin-top: 20px;
+    color: #00233b;
+}
+
+
+.matriculas-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    margin: 20px;
+    padding: 0 20px; 
+}
+
+.matriculas-card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.expert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.imagen img {
+  width: 500px;
+}
+
+.texto {
+  text-align: left;
+  color: #00233b;
+}
+
+.texto button {
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
